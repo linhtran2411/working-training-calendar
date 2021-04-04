@@ -1,0 +1,36 @@
+.container {
+  margin-bottom: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 6px;
+  padding: 5px 3px
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #5A57CB;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 130px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.iconButton {
+  display: contents;
+  cursor: pointer;
+}
